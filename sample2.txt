@@ -1,1 +1,4 @@
 This is sample file
+
+Commit reset 2
+
