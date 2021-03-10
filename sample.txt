@@ -3,3 +3,4 @@ This is sample file 1
 Git commit 1
 
 This is the stash lecture, Change in file 1
+Adding a line
