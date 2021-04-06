@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+    stages {
+        stage('Initial') {
+            steps {
+                echo 'I am running my own test code'
+                echo 'And hopefully it works'
+            }
+        }
+        stage('Build') {
+            steps {
+                echo 'Now I am in the build stage'
+                echo 'Are we still working?'
+            }
+        }
+        stage('Deployment prologue') {
+            steps {
+                echo 'And we are almost through'
+                echo 'Just one more step'
+            }
+        }
+        stage('Final deployment') {
+            steps {
+                echo 'Now we are truly finished'
+                echo 'Go have a coke'
+            }
+        }
+    }
+}
